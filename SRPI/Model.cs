@@ -36,10 +36,13 @@ namespace SRPI {
             return false;
         }
 	
-        public bool DadosValidados(string data)
+        public bool DadosValidados(DateTime date)
         {
-            //data não pode ser vazia nem superior à data atual
-            //falta implementar
+            //verificar se a data não é superior à atual
+            if (date > DateTime.Now) 
+            {
+                return false;
+            }
             return true;
         }
     }

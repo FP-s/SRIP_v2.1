@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csamp\\source\\repos\\SRPI\\SRPI\\SRPI.csproj": {}
+    "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csamp\\source\\repos\\SRPI\\SRPI\\SRPI.csproj": {
+    "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csamp\\source\\repos\\SRPI\\SRPI\\SRPI.csproj",
+        "projectUniqueName": "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj",
         "projectName": "SRPI",
-        "projectPath": "C:\\Users\\csamp\\source\\repos\\SRPI\\SRPI\\SRPI.csproj",
+        "projectPath": "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj",
         "packagesPath": "C:\\Users\\csamp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csamp\\source\\repos\\SRPI\\SRPI\\obj\\",
+        "outputPath": "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csamp\\AppData\\Roaming\\NuGet\\NuGet.Config",

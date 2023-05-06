@@ -59,7 +59,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             groupBox1.Controls.Add(listBox4);
             groupBox1.Controls.Add(listBox3);
             groupBox1.Controls.Add(listBox2);
@@ -82,11 +82,12 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(dateTimePicker1);
             groupBox1.Controls.Add(label1);
+            groupBox1.Dock = DockStyle.Left;
             groupBox1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox1.Location = new Point(18, 12);
+            groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
             groupBox1.RightToLeft = RightToLeft.No;
-            groupBox1.Size = new Size(548, 308);
+            groupBox1.Size = new Size(548, 919);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "IDENTIFICAÇÃO DOS AGENTES";
@@ -306,13 +307,14 @@
             // 
             // groupBox2
             // 
-            groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             groupBox2.Controls.Add(textBox10);
+            groupBox2.Dock = DockStyle.Fill;
             groupBox2.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox2.Location = new Point(572, 12);
+            groupBox2.Location = new Point(548, 0);
             groupBox2.Name = "groupBox2";
             groupBox2.RightToLeft = RightToLeft.No;
-            groupBox2.Size = new Size(1214, 308);
+            groupBox2.Size = new Size(1250, 919);
             groupBox2.TabIndex = 16;
             groupBox2.TabStop = false;
             groupBox2.Text = "DESCRIÇÃO DA OCORRÊNCIA";

@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Tiago Bento\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\csamp\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\csamp\\.nuget\\packages"
     ],
     "configProperties": {

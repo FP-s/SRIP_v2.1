@@ -17,13 +17,11 @@ namespace SRPI
             InitializeComponent();
         }
 
-        private void Data(object sender, EventArgs e) {
-
-            string data = Convert.ToString(dateTimePicker1.Value);
-
+        private void Data(object sender, EventArgs e)
+        {
+            DateTime date = dateTimePicker1.Value;
             Controller controller = new Controller();
-            controller.IntroduzirDados(data);
-
+            controller.IntroduzirDados(date);
         }
 
         private void label3_Click(object sender, EventArgs e)

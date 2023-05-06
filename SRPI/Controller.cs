@@ -32,11 +32,14 @@ namespace SRPI {
             }
         }
 
-        public void IntroduzirDados(string data) {
+        public void IntroduzirDados(DateTime date) {
 
-            if(model.DadosValidados(data)) {
+            if(model.DadosValidados(date) == false)  {
                 //vai passar à API(PDFSharp) para gerar o PDF
                 //falta implementar
+                //apresentar msgbox data válida
+                MessageBox.Show("Data inválida.",
+                                "Alerta!");
             }
         }
     }
