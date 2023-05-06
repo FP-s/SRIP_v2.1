@@ -1,0 +1,93 @@
+C:\Users\csamp\source\repos\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.exe
+C:\Users\csamp\source\repos\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.deps.json
+C:\Users\csamp\source\repos\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.runtimeconfig.json
+C:\Users\csamp\source\repos\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.dll
+C:\Users\csamp\source\repos\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.pdb
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.AssemblyReference.cache
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.Form1.resources
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.GenerateResource.cache
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfoInputs.cache
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfo.cs
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CoreCompileInputs.cache
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.dll
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\refint\SRPI.dll
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
+C:\Users\csamp\source\repos\SRPI\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.exe
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.deps.json
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.runtimeconfig.json
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.dll
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\bin\Debug\net6.0-windows\SRPI.pdb
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.AssemblyReference.cache
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.Login.resources
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.GenerateResource.cache
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfoInputs.cache
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfo.cs
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CoreCompileInputs.cache
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.dll
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\refint\SRPI.dll
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.Properties.Resources.resources
+C:\Users\Tiago Bento\Desktop\SRPI\SRPI\obj\Debug\net6.0-windows\SRPI.Relatorio.resources
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.exe
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.deps.json
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.runtimeconfig.json
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.dll
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.pdb
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.AssemblyReference.cache
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.Login.resources
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.Properties.Resources.resources
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.Relatorio.resources
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.GenerateResource.cache
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfoInputs.cache
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfo.cs
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CoreCompileInputs.cache
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.dll
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\refint\SRPI.dll
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
+C:\Users\csamp\OneDrive - UAb\21179 - Laboratório de Desenvolvimento de Software\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.exe
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.deps.json
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.runtimeconfig.json
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.dll
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\bin\Debug\net6.0-windows\SRPI.pdb
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.AssemblyReference.cache
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.Login.resources
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.Properties.Resources.resources
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.Relatorio.resources
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.GenerateResource.cache
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfoInputs.cache
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfo.cs
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CoreCompileInputs.cache
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.dll
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\refint\SRPI.dll
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
+C:\Users\Tiago Bento\Desktop\2023-05-05_kaveira2\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\bin\Debug\net6.0-windows\SRPI.exe
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\bin\Debug\net6.0-windows\SRPI.deps.json
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\bin\Debug\net6.0-windows\SRPI.runtimeconfig.json
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\bin\Debug\net6.0-windows\SRPI.dll
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\bin\Debug\net6.0-windows\SRPI.pdb
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.AssemblyReference.cache
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.Login.resources
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.Properties.Resources.resources
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.Relatorio.resources
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.GenerateResource.cache
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfoInputs.cache
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfo.cs
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CoreCompileInputs.cache
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.dll
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\refint\SRPI.dll
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
+C:\Users\Tiago Bento\Source\Repos\FP-s\SRPI_v2\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
