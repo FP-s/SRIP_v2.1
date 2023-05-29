@@ -52,7 +52,8 @@
             dateTimePicker1 = new DateTimePicker();
             label1 = new Label();
             groupBox2 = new GroupBox();
-            textBox10 = new TextBox();
+            button1 = new Button();
+            richTextBox1 = new RichTextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -87,7 +88,7 @@
             groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
             groupBox1.RightToLeft = RightToLeft.No;
-            groupBox1.Size = new Size(548, 919);
+            groupBox1.Size = new Size(548, 749);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "IDENTIFICAÇÃO DOS AGENTES";
@@ -124,6 +125,7 @@
             listBox2.Name = "listBox2";
             listBox2.Size = new Size(215, 25);
             listBox2.TabIndex = 21;
+            listBox2.SelectedIndexChanged += listBox2_SelectedIndexChanged;
             // 
             // label11
             // 
@@ -308,30 +310,42 @@
             // groupBox2
             // 
             groupBox2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            groupBox2.Controls.Add(textBox10);
+            groupBox2.Controls.Add(richTextBox1);
+            groupBox2.Controls.Add(button1);
             groupBox2.Dock = DockStyle.Fill;
             groupBox2.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox2.Location = new Point(548, 0);
             groupBox2.Name = "groupBox2";
             groupBox2.RightToLeft = RightToLeft.No;
-            groupBox2.Size = new Size(1250, 919);
+            groupBox2.Size = new Size(822, 749);
             groupBox2.TabIndex = 16;
             groupBox2.TabStop = false;
             groupBox2.Text = "DESCRIÇÃO DA OCORRÊNCIA";
+            groupBox2.Enter += groupBox2_Enter;
             // 
-            // textBox10
+            // button1
             // 
-            textBox10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox10.Location = new Point(19, 44);
-            textBox10.Multiline = true;
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(1169, 241);
-            textBox10.TabIndex = 0;
+            button1.Location = new Point(268, 328);
+            button1.Name = "button1";
+            button1.Size = new Size(191, 55);
+            button1.TabIndex = 1;
+            button1.Text = "Gerar PDF";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.Location = new Point(24, 46);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(758, 262);
+            richTextBox1.TabIndex = 2;
+            richTextBox1.Text = "";
+            richTextBox1.TextChanged += richTextBox1_TextChanged;
             // 
             // Relatorio
             // 
             AutoScroll = true;
-            ClientSize = new Size(1798, 919);
+            ClientSize = new Size(1370, 749);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
@@ -345,7 +359,6 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -372,9 +385,10 @@
         private Label label10;
         private Label label9;
         private Label label11;
-        private TextBox textBox10;
         private ListBox listBox4;
         private ListBox listBox3;
         private ListBox listBox2;
+        private Button button1;
+        private RichTextBox richTextBox1;
     }
 }

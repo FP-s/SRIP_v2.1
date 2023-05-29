@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj": {}
+    "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\SRPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj": {
+    "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\SRPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj",
+        "projectUniqueName": "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\SRPI.csproj",
         "projectName": "SRPI",
-        "projectPath": "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj",
-        "packagesPath": "C:\\Users\\csamp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csamp\\source\\repos\\FP-s\\SRIP_v2.1\\SRPI\\obj\\",
+        "projectPath": "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\SRPI.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\csamp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +44,16 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[1.32.3057, )"
+            },
+            "System.Text.Encoding": {
+              "target": "Package",
+              "version": "[4.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

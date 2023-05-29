@@ -110,3 +110,27 @@ C:\Users\csamp\source\repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\refint\
 C:\Users\csamp\source\repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
 C:\Users\csamp\source\repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
 C:\Users\csamp\source\repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\SRPI.exe
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\SRPI.deps.json
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\SRPI.runtimeconfig.json
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\SRPI.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\SRPI.pdb
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.AssemblyReference.cache
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.Login.resources
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.Properties.Resources.resources
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.Relatorio.resources
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.GenerateResource.cache
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfoInputs.cache
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfo.cs
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CoreCompileInputs.cache
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\refint\SRPI.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\PdfSharp.Charting.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\PdfSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\de\PdfSharp.Charting.resources.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\de\PdfSharp.resources.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CopyComplete
