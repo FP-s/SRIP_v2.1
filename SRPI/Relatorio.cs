@@ -14,6 +14,7 @@ using System.Reflection.Metadata;
 using PdfSharp;
 using PdfSharp.Pdf.IO;
 using System.IO;
+using System.Xml.Linq;
 
 namespace SRPI
 {
@@ -68,36 +69,44 @@ namespace SRPI
         {
 
         }
+
+
+        private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
         // Botão Gerar PDF
         private void button1_Click(object sender, EventArgs e)
         {
 
-            using (SaveFileDialog sfd = new SaveFileDialog())
-            {
-                if (sfd.ShowDialog() == DialogResult.OK)
-                {
-                    //gerar documento pdf
-                    PdfDocument doc = new PdfDocument();
-                    doc.Info.Title = "Relarório";
+            var document = new PdfSharp.Pdf.PdfDocument();
+            var page = document.AddPage();
+            var graphics = PdfSharp.Drawing.XGraphics.FromPdfPage(page);
+            var textFormatter = new PdfSharp.Drawing.Layout.XTextFormatter(graphics);
+            var font = new PdfSharp.Drawing.XFont("Calibri", 14);
+           
+            //gerar documento pdf
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Center;
+            textFormatter.DrawString("Relatório Diário:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 60, page.Width - 60, page.Height - 60));
 
-                    PdfPage page = doc.AddPage();
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Data:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 70, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(dateTimePicker1.Text, font, XBrushes.Black,
+            new XRect(60, 70, page.Width - 60, page.Height - 60));
 
-                    XGraphics gfx = XGraphics.FromPdfPage(page);
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Turno:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 80, page.Width - 60, page.Height - 60));
+           // textFormatter.DrawString(listBox1_SelectedIndexChanged_1.text, font, XBrushes.Black,
+           // new XRect(60, 70, page.Width - 60, page.Height - 60));
 
-                    // Formatação letra
-                    XFont font = new XFont("Arial", 20);
-                    gfx.DrawString(richTextBox1.Text, font, XBrushes.Black,
-                        new XRect(0, 0, page.Width, page.Height), XStringFormats.Center);
 
-                    //guardar arquivo pdf
-                    doc.Save("relatorio.pdf");
-                  
-                    Process.Start("relatorio.pdf");
+            //guardar arquivo pdf
+           
+            document.Save("C:\\pdf\\output.pdf");
+            MessageBox.Show("Arquivo gerado com sucesso.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                }
-            }
 
         }
-       
+
     }
 }

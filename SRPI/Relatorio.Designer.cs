@@ -52,8 +52,8 @@
             dateTimePicker1 = new DateTimePicker();
             label1 = new Label();
             groupBox2 = new GroupBox();
-            button1 = new Button();
             richTextBox1 = new RichTextBox();
+            button1 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -239,6 +239,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(88, 25);
             listBox1.TabIndex = 7;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged_1;
             // 
             // label4
             // 
@@ -323,6 +324,15 @@
             groupBox2.Text = "DESCRIÇÃO DA OCORRÊNCIA";
             groupBox2.Enter += groupBox2_Enter;
             // 
+            // richTextBox1
+            // 
+            richTextBox1.Location = new Point(24, 46);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(758, 262);
+            richTextBox1.TabIndex = 2;
+            richTextBox1.Text = "";
+            richTextBox1.TextChanged += richTextBox1_TextChanged;
+            // 
             // button1
             // 
             button1.Location = new Point(268, 328);
@@ -332,15 +342,6 @@
             button1.Text = "Gerar PDF";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // richTextBox1
-            // 
-            richTextBox1.Location = new Point(24, 46);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(758, 262);
-            richTextBox1.TabIndex = 2;
-            richTextBox1.Text = "";
-            richTextBox1.TextChanged += richTextBox1_TextChanged;
             // 
             // Relatorio
             // 
