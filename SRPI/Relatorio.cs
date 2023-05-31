@@ -15,6 +15,12 @@ using PdfSharp;
 using PdfSharp.Pdf.IO;
 using System.IO;
 using System.Xml.Linq;
+using PdfSharp.Drawing.Layout;
+
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
+
 
 namespace SRPI
 {
@@ -65,6 +71,7 @@ namespace SRPI
 
         }
 
+
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -75,41 +82,73 @@ namespace SRPI
         {
 
         }
+        // code in your main method
+
+
+
+
         // Botão Gerar PDF
         private void button1_Click(object sender, EventArgs e)
         {
+       
+                           var document = new PdfSharp.Pdf.PdfDocument();
+                           var page = document.AddPage();
+                           var graphics = PdfSharp.Drawing.XGraphics.FromPdfPage(page);
+                           var textFormatter = new PdfSharp.Drawing.Layout.XTextFormatter(graphics);
+                           var font = new PdfSharp.Drawing.XFont("Calibri", 14);
 
-            var document = new PdfSharp.Pdf.PdfDocument();
-            var page = document.AddPage();
-            var graphics = PdfSharp.Drawing.XGraphics.FromPdfPage(page);
-            var textFormatter = new PdfSharp.Drawing.Layout.XTextFormatter(graphics);
-            var font = new PdfSharp.Drawing.XFont("Calibri", 14);
-           
-            //gerar documento pdf
-            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Center;
-            textFormatter.DrawString("Relatório Diário:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 60, page.Width - 60, page.Height - 60));
+                            //gerar documento pdf
+                            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Center;
+                            textFormatter.DrawString("Relatório Diário:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 60, page.Width - 60, page.Height - 60));
+
+                            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+                            textFormatter.DrawString("Data:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 70, page.Width - 60, page.Height - 60));
+                            textFormatter.DrawString(dateTimePicker1.Text, font, XBrushes.Black,
+                            new XRect(90, 70, page.Width - 60, page.Height - 60));
+
+                            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+                            textFormatter.DrawString("Turno:", font, XBrushes.Black, new XRect(30, 90, page.Width - 60, page.Height - 60));
+                            textFormatter.DrawString(listBox1.Text, font, XBrushes.Black,
+                            new XRect(90, 90, page.Width - 60, page.Height - 60));
+
+            // Código para coletar o texto do campo nome e apresentá-lo no relatório
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+                            textFormatter.DrawString("Nome:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 110 , page.Width - 60, page.Height - 60));
+                            textFormatter.DrawString(textBox1.Text, font, XBrushes.Black, new XRect(90, 110, page.Width - 60, page.Height - 60));
 
             textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
-            textFormatter.DrawString("Data:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 70, page.Width - 60, page.Height - 60));
-            textFormatter.DrawString(dateTimePicker1.Text, font, XBrushes.Black,
-            new XRect(60, 70, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString("Número:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 130, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(textBox2.Text, font, XBrushes.Black, new XRect(90, 130, page.Width - 60, page.Height - 60));
 
             textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
-            textFormatter.DrawString("Turno:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 80, page.Width - 60, page.Height - 60));
-           // textFormatter.DrawString(listBox1_SelectedIndexChanged_1.text, font, XBrushes.Black,
-           // new XRect(60, 70, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString("Posto:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 150, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(listBox2.Text, font, XBrushes.Black, new XRect(90, 150, page.Width - 60, page.Height - 60));
+
+            // Código para coletar o texto do campo ocorrências e apresentá-lo no relatório
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+                            textFormatter.DrawString("Ocorrências:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 190, page.Width - 60, page.Height - 60));
+                            textFormatter.DrawString(richTextBox1.Text, font, XBrushes.Black, new XRect(30, 210, page.Width - 60, page.Height - 60));
 
 
-            //guardar arquivo pdf
-            string data = DateTime.Now.ToString("ddHHmmMMMyy");
-            string nome = "RelatorioDiario_" + data + ".pdf";
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            document.Save(path + "\\" + nome);
-            //document.Save("C:\\pdf\\output.pdf");
-            MessageBox.Show("Arquivo gerado com sucesso.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //guardar arquivo pdf
+                            string data = DateTime.Now.ToString("ddHHmmMMMyy");
+                            string nome = "RelatorioDiario_" + data + ".pdf";
+                            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                            //document.Save(path + "\\" + nome);
+                            document.Save("C:\\pdf\\" + nome);
+                            MessageBox.Show("Arquivo gerado com sucesso.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                   
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

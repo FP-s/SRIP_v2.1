@@ -2,6 +2,127 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "Carbon.Data.Protection/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Carbon.Data.Protection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Data.Protection.dll": {}
+        }
+      },
+      "Carbon.Packaging/1.50.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Data.Protection": "1.5.0",
+          "Carbon.Storage": "3.0.1",
+          "Carbon.Versioning": "2.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Carbon.Packaging.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Packaging.dll": {}
+        }
+      },
+      "Carbon.Storage/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Carbon.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Storage.dll": {}
+        }
+      },
+      "Carbon.VersionControl/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Storage": "3.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Carbon.VersionControl.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.VersionControl.dll": {}
+        }
+      },
+      "Carbon.Versioning/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Carbon.Versioning.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Versioning.dll": {}
+        }
+      },
+      "GitHub/1.34.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Packaging": "1.50.0",
+          "Carbon.VersionControl": "2.6.0"
+        },
+        "compile": {
+          "lib/net5.0/GitHub.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/GitHub.dll": {}
+        }
+      },
+      "HarfBuzzSharp/2.8.2.3": {
+        "type": "package",
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "2.8.2.3",
+          "HarfBuzzSharp.NativeAssets.macOS": "2.8.2.3"
+        },
+        "compile": {
+          "lib/net6.0/HarfBuzzSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/HarfBuzzSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/2.8.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/2.8.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.1": {
         "type": "package",
         "compile": {
@@ -122,6 +243,23 @@
           }
         }
       },
+      "QuestPDF/2023.5.2": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.3",
+          "SkiaSharp.HarfBuzz": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -146,6 +284,78 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "SkiaSharp/2.88.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.3",
+          "SkiaSharp.NativeAssets.macOS": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/2.88.3": {
+        "type": "package",
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2.3",
+          "SkiaSharp": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.HarfBuzz.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.HarfBuzz.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/_._": {}
+        },
+        "runtime": {
+          "lib/net5.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
         }
       },
       "System.Buffers/4.3.0": {
@@ -710,6 +920,207 @@
     }
   },
   "libraries": {
+    "Carbon.Data.Protection/1.5.0": {
+      "sha512": "3/+PcHtuKgBotHII1Dth0SLBhNDvu2oCec0QdlRus/oHyr25BpfyhvV7h84hWP4UQQjmvymQwM0f7jLy0Vr86w==",
+      "type": "package",
+      "path": "carbon.data.protection/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.data.protection.1.5.0.nupkg.sha512",
+        "carbon.data.protection.nuspec",
+        "lib/net5.0/Carbon.Data.Protection.dll",
+        "lib/netstandard2.1/Carbon.Data.Protection.dll"
+      ]
+    },
+    "Carbon.Packaging/1.50.0": {
+      "sha512": "w8QyiBSWSqgpTWmWSYe1jJHPa20i+pd+tPT0qFWvv0gsYuPkBU6zEbH9e6Y1Xr7HdT0SFEF80neWYKy0Y6yODA==",
+      "type": "package",
+      "path": "carbon.packaging/1.50.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.packaging.1.50.0.nupkg.sha512",
+        "carbon.packaging.nuspec",
+        "lib/net5.0/Carbon.Packaging.dll",
+        "lib/netstandard2.1/Carbon.Packaging.dll"
+      ]
+    },
+    "Carbon.Storage/3.0.1": {
+      "sha512": "cymUDZ3EOryvSZEG9R8aK1Q42bbmBAoh8NX+mZdXar6AqzbUiw3rC8EmDbleRl/3l+7cpVd/TDFGxZsslfPqpA==",
+      "type": "package",
+      "path": "carbon.storage/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.storage.3.0.1.nupkg.sha512",
+        "carbon.storage.nuspec",
+        "lib/net5.0/Carbon.Storage.dll",
+        "lib/netcoreapp3.1/Carbon.Storage.dll",
+        "lib/netstandard2.0/Carbon.Storage.dll",
+        "lib/netstandard2.1/Carbon.Storage.dll"
+      ]
+    },
+    "Carbon.VersionControl/2.6.0": {
+      "sha512": "oo+oCdcRwrwjn/4I8CwzrDjH+vcTGvr9QPjJp4HFWAba3ahWiZhCWhioumbmBxnetLENGq6w64TC/xSNwecZbg==",
+      "type": "package",
+      "path": "carbon.versioncontrol/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.versioncontrol.2.6.0.nupkg.sha512",
+        "carbon.versioncontrol.nuspec",
+        "lib/net5.0/Carbon.VersionControl.dll",
+        "lib/netstandard2.1/Carbon.VersionControl.dll"
+      ]
+    },
+    "Carbon.Versioning/2.0.1": {
+      "sha512": "sb5wO/BgMAMvUX6gf41h7Qhl5BkbDZbGiZxm8krEq/cNbpnH+kWlo9TJmTk/5XBB+K97xzgpk2VkBedmEl1Ewg==",
+      "type": "package",
+      "path": "carbon.versioning/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.versioning.2.0.1.nupkg.sha512",
+        "carbon.versioning.nuspec",
+        "lib/net5.0/Carbon.Versioning.dll",
+        "lib/netstandard2.0/Carbon.Versioning.dll"
+      ]
+    },
+    "GitHub/1.34.0": {
+      "sha512": "X+Rn0rMMBdxlaFIL/cZAowKcnU29/oNZ9c3p61yvgJ962LmFUjlF7c2rtqbWMmOjoWxWfdoGygc2EwIPSDUQng==",
+      "type": "package",
+      "path": "github/1.34.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "github.1.34.0.nupkg.sha512",
+        "github.nuspec",
+        "lib/net5.0/GitHub.dll",
+        "lib/netstandard2.1/GitHub.dll"
+      ]
+    },
+    "HarfBuzzSharp/2.8.2.3": {
+      "sha512": "8MwXm9J4dXHuTdzPo29nHgDbt4+6P+RrPrH/qrxcERf29cpLlFbjvP3eFPwHmdUrl4KL2SHEZi2ZuQ5ndeIL1w==",
+      "type": "package",
+      "path": "harfbuzzsharp/2.8.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "harfbuzzsharp.2.8.2.3.nupkg.sha512",
+        "harfbuzzsharp.nuspec",
+        "lib/monoandroid1.0/HarfBuzzSharp.dll",
+        "lib/monoandroid1.0/HarfBuzzSharp.pdb",
+        "lib/monoandroid1.0/HarfBuzzSharp.xml",
+        "lib/net462/HarfBuzzSharp.dll",
+        "lib/net462/HarfBuzzSharp.pdb",
+        "lib/net462/HarfBuzzSharp.xml",
+        "lib/net5.0/HarfBuzzSharp.dll",
+        "lib/net5.0/HarfBuzzSharp.pdb",
+        "lib/net5.0/HarfBuzzSharp.xml",
+        "lib/net6.0-android30.0/HarfBuzzSharp.dll",
+        "lib/net6.0-android30.0/HarfBuzzSharp.pdb",
+        "lib/net6.0-android30.0/HarfBuzzSharp.xml",
+        "lib/net6.0-ios13.6/HarfBuzzSharp.dll",
+        "lib/net6.0-ios13.6/HarfBuzzSharp.pdb",
+        "lib/net6.0-ios13.6/HarfBuzzSharp.xml",
+        "lib/net6.0-maccatalyst13.5/HarfBuzzSharp.dll",
+        "lib/net6.0-maccatalyst13.5/HarfBuzzSharp.pdb",
+        "lib/net6.0-maccatalyst13.5/HarfBuzzSharp.xml",
+        "lib/net6.0-macos10.15/HarfBuzzSharp.dll",
+        "lib/net6.0-macos10.15/HarfBuzzSharp.pdb",
+        "lib/net6.0-macos10.15/HarfBuzzSharp.xml",
+        "lib/net6.0-tvos13.4/HarfBuzzSharp.dll",
+        "lib/net6.0-tvos13.4/HarfBuzzSharp.pdb",
+        "lib/net6.0-tvos13.4/HarfBuzzSharp.xml",
+        "lib/net6.0/HarfBuzzSharp.dll",
+        "lib/net6.0/HarfBuzzSharp.pdb",
+        "lib/net6.0/HarfBuzzSharp.xml",
+        "lib/netcoreapp3.1/HarfBuzzSharp.dll",
+        "lib/netcoreapp3.1/HarfBuzzSharp.pdb",
+        "lib/netcoreapp3.1/HarfBuzzSharp.xml",
+        "lib/netstandard1.3/HarfBuzzSharp.dll",
+        "lib/netstandard1.3/HarfBuzzSharp.pdb",
+        "lib/netstandard1.3/HarfBuzzSharp.xml",
+        "lib/netstandard2.0/HarfBuzzSharp.dll",
+        "lib/netstandard2.0/HarfBuzzSharp.pdb",
+        "lib/netstandard2.0/HarfBuzzSharp.xml",
+        "lib/netstandard2.1/HarfBuzzSharp.dll",
+        "lib/netstandard2.1/HarfBuzzSharp.pdb",
+        "lib/netstandard2.1/HarfBuzzSharp.xml",
+        "lib/tizen40/HarfBuzzSharp.dll",
+        "lib/tizen40/HarfBuzzSharp.pdb",
+        "lib/tizen40/HarfBuzzSharp.xml",
+        "lib/uap10.0.10240/HarfBuzzSharp.dll",
+        "lib/uap10.0.10240/HarfBuzzSharp.pdb",
+        "lib/uap10.0.10240/HarfBuzzSharp.xml",
+        "lib/uap10.0.16299/HarfBuzzSharp.dll",
+        "lib/uap10.0.16299/HarfBuzzSharp.pdb",
+        "lib/uap10.0.16299/HarfBuzzSharp.xml",
+        "lib/xamarinios1.0/HarfBuzzSharp.dll",
+        "lib/xamarinios1.0/HarfBuzzSharp.pdb",
+        "lib/xamarinios1.0/HarfBuzzSharp.xml",
+        "lib/xamarinmac2.0/HarfBuzzSharp.dll",
+        "lib/xamarinmac2.0/HarfBuzzSharp.pdb",
+        "lib/xamarinmac2.0/HarfBuzzSharp.xml",
+        "lib/xamarintvos1.0/HarfBuzzSharp.dll",
+        "lib/xamarintvos1.0/HarfBuzzSharp.pdb",
+        "lib/xamarintvos1.0/HarfBuzzSharp.xml",
+        "lib/xamarinwatchos1.0/HarfBuzzSharp.dll",
+        "lib/xamarinwatchos1.0/HarfBuzzSharp.pdb",
+        "lib/xamarinwatchos1.0/HarfBuzzSharp.xml"
+      ]
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/2.8.2.3": {
+      "sha512": "uwz9pB3hMuxzI/bSkjVrsOJH7Wo1L+0Md5ZmEMDM/j7xDHtR9d3mfg/CfxhMIcTiUC4JgX49FZK0y2ojgu1dww==",
+      "type": "package",
+      "path": "harfbuzzsharp.nativeassets.macos/2.8.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "build/net6.0-macos10.15/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "build/xamarinmac2.0/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net462/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net6.0-macos10.15/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "buildTransitive/xamarinmac2.0/HarfBuzzSharp.NativeAssets.macOS.targets",
+        "harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512",
+        "harfbuzzsharp.nativeassets.macos.nuspec",
+        "lib/net462/_._",
+        "lib/net5.0/_._",
+        "lib/net6.0-macos10.15/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "lib/xamarinmac2.0/_._",
+        "runtimes/osx/native/libHarfBuzzSharp.dylib"
+      ]
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/2.8.2.3": {
+      "sha512": "Wo6QpE4+a+PFVdfIBoLkLr4wq2uC0m9TZC8FAfy4ZnLsUc10WL0Egk9EBHHhDCeokNOXDse5YtvuTYtS/rbHfg==",
+      "type": "package",
+      "path": "harfbuzzsharp.nativeassets.win32/2.8.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/HarfBuzzSharp.NativeAssets.Win32.targets",
+        "buildTransitive/net462/HarfBuzzSharp.NativeAssets.Win32.targets",
+        "harfbuzzsharp.nativeassets.win32.2.8.2.3.nupkg.sha512",
+        "harfbuzzsharp.nativeassets.win32.nuspec",
+        "lib/net462/_._",
+        "lib/net5.0/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
+        "runtimes/win-x64/native/libHarfBuzzSharp.dll",
+        "runtimes/win-x86/native/libHarfBuzzSharp.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.1": {
       "sha512": "TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
       "type": "package",
@@ -1195,6 +1606,30 @@
         "pdfsharp.nuspec"
       ]
     },
+    "QuestPDF/2023.5.2": {
+      "sha512": "vjF2eM2arZov1wFITTQK3DcwHod8S+HJTBYOQRmsv5G1ESAAdwcHq12ohC4qBmHbxSVc+X9TW2Bua3w/vxEOvA==",
+      "type": "package",
+      "path": "questpdf/2023.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Logo.png",
+        "PackageLicense.md",
+        "PackageReadme.md",
+        "lib/net462/QuestPDF.dll",
+        "lib/net462/QuestPDF.xml",
+        "lib/net6.0/QuestPDF.dll",
+        "lib/net6.0/QuestPDF.xml",
+        "lib/netcoreapp2.0/QuestPDF.dll",
+        "lib/netcoreapp2.0/QuestPDF.xml",
+        "lib/netcoreapp3.0/QuestPDF.dll",
+        "lib/netcoreapp3.0/QuestPDF.xml",
+        "lib/netstandard2.0/QuestPDF.dll",
+        "lib/netstandard2.0/QuestPDF.xml",
+        "questpdf.2023.5.2.nupkg.sha512",
+        "questpdf.nuspec"
+      ]
+    },
     "runtime.native.System/4.3.0": {
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
@@ -1221,6 +1656,164 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.io.compression.4.3.0.nupkg.sha512",
         "runtime.native.system.io.compression.nuspec"
+      ]
+    },
+    "SkiaSharp/2.88.3": {
+      "sha512": "GG8X3EdfwyBfwjl639UIiOVOKEdeoqDgYrz0P1MUCnefXt9cofN+AK8YB/v1+5cLMr03ieWCQdDmPqnFIzSxZw==",
+      "type": "package",
+      "path": "skiasharp/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "interactive-extensions/dotnet/SkiaSharp.DotNet.Interactive.dll",
+        "lib/monoandroid1.0/SkiaSharp.dll",
+        "lib/monoandroid1.0/SkiaSharp.pdb",
+        "lib/monoandroid1.0/SkiaSharp.xml",
+        "lib/net462/SkiaSharp.dll",
+        "lib/net462/SkiaSharp.pdb",
+        "lib/net462/SkiaSharp.xml",
+        "lib/net5.0/SkiaSharp.dll",
+        "lib/net5.0/SkiaSharp.pdb",
+        "lib/net5.0/SkiaSharp.xml",
+        "lib/net6.0-android30.0/SkiaSharp.dll",
+        "lib/net6.0-android30.0/SkiaSharp.pdb",
+        "lib/net6.0-android30.0/SkiaSharp.xml",
+        "lib/net6.0-ios13.6/SkiaSharp.dll",
+        "lib/net6.0-ios13.6/SkiaSharp.pdb",
+        "lib/net6.0-ios13.6/SkiaSharp.xml",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.dll",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.pdb",
+        "lib/net6.0-maccatalyst13.5/SkiaSharp.xml",
+        "lib/net6.0-macos10.15/SkiaSharp.dll",
+        "lib/net6.0-macos10.15/SkiaSharp.pdb",
+        "lib/net6.0-macos10.15/SkiaSharp.xml",
+        "lib/net6.0-tizen7.0/SkiaSharp.dll",
+        "lib/net6.0-tizen7.0/SkiaSharp.pdb",
+        "lib/net6.0-tizen7.0/SkiaSharp.xml",
+        "lib/net6.0-tvos13.4/SkiaSharp.dll",
+        "lib/net6.0-tvos13.4/SkiaSharp.pdb",
+        "lib/net6.0-tvos13.4/SkiaSharp.xml",
+        "lib/net6.0/SkiaSharp.dll",
+        "lib/net6.0/SkiaSharp.pdb",
+        "lib/net6.0/SkiaSharp.xml",
+        "lib/netcoreapp3.1/SkiaSharp.dll",
+        "lib/netcoreapp3.1/SkiaSharp.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.pdb",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/netstandard2.0/SkiaSharp.dll",
+        "lib/netstandard2.0/SkiaSharp.pdb",
+        "lib/netstandard2.0/SkiaSharp.xml",
+        "lib/netstandard2.1/SkiaSharp.dll",
+        "lib/netstandard2.1/SkiaSharp.pdb",
+        "lib/netstandard2.1/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.pdb",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0.10240/SkiaSharp.dll",
+        "lib/uap10.0.10240/SkiaSharp.pdb",
+        "lib/uap10.0.10240/SkiaSharp.xml",
+        "lib/uap10.0.16299/SkiaSharp.dll",
+        "lib/uap10.0.16299/SkiaSharp.pdb",
+        "lib/uap10.0.16299/SkiaSharp.xml",
+        "lib/xamarinios1.0/SkiaSharp.dll",
+        "lib/xamarinios1.0/SkiaSharp.pdb",
+        "lib/xamarinios1.0/SkiaSharp.xml",
+        "lib/xamarinmac2.0/SkiaSharp.dll",
+        "lib/xamarinmac2.0/SkiaSharp.pdb",
+        "lib/xamarinmac2.0/SkiaSharp.xml",
+        "lib/xamarintvos1.0/SkiaSharp.dll",
+        "lib/xamarintvos1.0/SkiaSharp.pdb",
+        "lib/xamarintvos1.0/SkiaSharp.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.pdb",
+        "lib/xamarinwatchos1.0/SkiaSharp.xml",
+        "skiasharp.2.88.3.nupkg.sha512",
+        "skiasharp.nuspec"
+      ]
+    },
+    "SkiaSharp.HarfBuzz/2.88.3": {
+      "sha512": "hH6v4ltTb34eqn5tx1qLSAN7O+ppZCV5DnZw0FR7RwxXYqCeQYbBNgsaPyrZ1nkvtCDD1pH79taeO6SvqG+IAg==",
+      "type": "package",
+      "path": "skiasharp.harfbuzz/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net462/SkiaSharp.HarfBuzz.dll",
+        "lib/net462/SkiaSharp.HarfBuzz.pdb",
+        "lib/net462/SkiaSharp.HarfBuzz.xml",
+        "lib/net5.0/SkiaSharp.HarfBuzz.dll",
+        "lib/net5.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/net5.0/SkiaSharp.HarfBuzz.xml",
+        "lib/net6.0/SkiaSharp.HarfBuzz.dll",
+        "lib/net6.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/net6.0/SkiaSharp.HarfBuzz.xml",
+        "lib/netcoreapp3.1/SkiaSharp.HarfBuzz.dll",
+        "lib/netcoreapp3.1/SkiaSharp.HarfBuzz.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.HarfBuzz.xml",
+        "lib/netstandard1.3/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard1.3/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard1.3/SkiaSharp.HarfBuzz.xml",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.xml",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.xml",
+        "skiasharp.harfbuzz.2.88.3.nupkg.sha512",
+        "skiasharp.harfbuzz.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.3": {
+      "sha512": "CEbWAXMGFkPV3S1snBKK7jEG3+xud/9kmSAhu0BEUKKtlMdxx+Qal0U9bntQREM9QpqP5xLWZooodi8IlV8MEg==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.macos/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "build/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
+        "build/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/net6.0-macos10.15/SkiaSharp.NativeAssets.macOS.targets",
+        "buildTransitive/xamarinmac2.0/SkiaSharp.NativeAssets.macOS.targets",
+        "lib/net462/_._",
+        "lib/net5.0/_._",
+        "lib/net6.0-macos10.15/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "lib/xamarinmac2.0/_._",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+        "skiasharp.nativeassets.macos.nuspec"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.3": {
+      "sha512": "MU4ASL8VAbTv5vSw1PoiWjjjpjtGhWtFYuJnrN4sNHFCePb2ohQij9JhSdqLLxk7RpRtWPdV93fbA53Pt+J0yw==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.win32/2.88.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "buildTransitive/net462/SkiaSharp.NativeAssets.Win32.targets",
+        "lib/net462/_._",
+        "lib/net5.0/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard1.3/_._",
+        "runtimes/win-arm64/native/libSkiaSharp.dll",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
+        "skiasharp.nativeassets.win32.nuspec"
       ]
     },
     "System.Buffers/4.3.0": {
@@ -2990,8 +3583,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "GitHub >= 1.34.0",
       "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
       "PdfSharp >= 1.50.5147",
+      "QuestPDF >= 2023.5.2",
       "System.Diagnostics.DiagnosticSource >= 7.0.2",
       "System.Diagnostics.Process >= 4.3.0",
       "System.Diagnostics.StackTrace >= 4.3.0",
@@ -3002,23 +3597,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tfbento\\.nuget\\packages\\": {},
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tfbento\\Source\\Repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj",
+      "projectUniqueName": "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\SRPI.csproj",
       "projectName": "SRPI",
-      "projectPath": "C:\\Users\\tfbento\\Source\\Repos\\FP-s\\SRIP_v2.1\\SRPI\\SRPI.csproj",
-      "packagesPath": "C:\\Users\\tfbento\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tfbento\\Source\\Repos\\FP-s\\SRIP_v2.1\\SRPI\\obj\\",
+      "projectPath": "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\SRPI.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "E:\\LEI 1º ano\\2º Ano\\2º Semestre\\Laboratório de Desenvolvimento de Software\\Hithub Visual Studio\\SRPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tfbento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3046,6 +3641,10 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
+          "GitHub": {
+            "target": "Package",
+            "version": "[1.34.0, )"
+          },
           "Microsoft.NETFramework.ReferenceAssemblies": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -3055,6 +3654,10 @@
           "PdfSharp": {
             "target": "Package",
             "version": "[1.50.5147, )"
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2023.5.2, )"
           },
           "System.Diagnostics.DiagnosticSource": {
             "target": "Package",
@@ -3104,7 +3707,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   },

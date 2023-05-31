@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "SRPI/1.0.0": {
         "dependencies": {
+          "GitHub": "1.34.0",
           "Microsoft.NETFramework.ReferenceAssemblies": "1.0.3",
           "PDFsharp": "1.50.5147",
+          "QuestPDF": "2023.5.2",
           "System.Diagnostics.DiagnosticSource": "7.0.2",
           "System.Diagnostics.Process": "4.3.0",
           "System.Diagnostics.StackTrace": "4.3.0",
@@ -20,6 +22,106 @@
         },
         "runtime": {
           "SRPI.dll": {}
+        }
+      },
+      "Carbon.Data.Protection/1.5.0": {
+        "runtime": {
+          "lib/net5.0/Carbon.Data.Protection.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "Carbon.Packaging/1.50.0": {
+        "dependencies": {
+          "Carbon.Data.Protection": "1.5.0",
+          "Carbon.Storage": "3.0.1",
+          "Carbon.Versioning": "2.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Packaging.dll": {
+            "assemblyVersion": "1.50.0.0",
+            "fileVersion": "1.50.0.0"
+          }
+        }
+      },
+      "Carbon.Storage/3.0.1": {
+        "runtime": {
+          "lib/net5.0/Carbon.Storage.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Carbon.VersionControl/2.6.0": {
+        "dependencies": {
+          "Carbon.Storage": "3.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.VersionControl.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
+      "Carbon.Versioning/2.0.1": {
+        "runtime": {
+          "lib/net5.0/Carbon.Versioning.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "GitHub/1.34.0": {
+        "dependencies": {
+          "Carbon.Packaging": "1.50.0",
+          "Carbon.VersionControl": "2.6.0"
+        },
+        "runtime": {
+          "lib/net5.0/GitHub.dll": {
+            "assemblyVersion": "1.34.0.0",
+            "fileVersion": "1.34.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp/2.8.2.3": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "2.8.2.3",
+          "HarfBuzzSharp.NativeAssets.macOS": "2.8.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.8.2.3"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/2.8.2.3": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/2.8.2.3": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.1": {},
@@ -85,6 +187,18 @@
           }
         }
       },
+      "QuestPDF/2023.5.2": {
+        "dependencies": {
+          "SkiaSharp": "2.88.3",
+          "SkiaSharp.HarfBuzz": "2.88.3"
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "assemblyVersion": "2023.5.2.0",
+            "fileVersion": "2023.5.2.0"
+          }
+        }
+      },
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -95,6 +209,58 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
           "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
+      "SkiaSharp/2.88.3": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.3",
+          "SkiaSharp.NativeAssets.macOS": "2.88.3"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.3.0"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/2.88.3": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2.3",
+          "SkiaSharp": "2.88.3"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.HarfBuzz.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.3.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.3": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.3": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
         }
       },
       "System.Buffers/4.3.0": {
@@ -413,6 +579,69 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Carbon.Data.Protection/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3/+PcHtuKgBotHII1Dth0SLBhNDvu2oCec0QdlRus/oHyr25BpfyhvV7h84hWP4UQQjmvymQwM0f7jLy0Vr86w==",
+      "path": "carbon.data.protection/1.5.0",
+      "hashPath": "carbon.data.protection.1.5.0.nupkg.sha512"
+    },
+    "Carbon.Packaging/1.50.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w8QyiBSWSqgpTWmWSYe1jJHPa20i+pd+tPT0qFWvv0gsYuPkBU6zEbH9e6Y1Xr7HdT0SFEF80neWYKy0Y6yODA==",
+      "path": "carbon.packaging/1.50.0",
+      "hashPath": "carbon.packaging.1.50.0.nupkg.sha512"
+    },
+    "Carbon.Storage/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cymUDZ3EOryvSZEG9R8aK1Q42bbmBAoh8NX+mZdXar6AqzbUiw3rC8EmDbleRl/3l+7cpVd/TDFGxZsslfPqpA==",
+      "path": "carbon.storage/3.0.1",
+      "hashPath": "carbon.storage.3.0.1.nupkg.sha512"
+    },
+    "Carbon.VersionControl/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oo+oCdcRwrwjn/4I8CwzrDjH+vcTGvr9QPjJp4HFWAba3ahWiZhCWhioumbmBxnetLENGq6w64TC/xSNwecZbg==",
+      "path": "carbon.versioncontrol/2.6.0",
+      "hashPath": "carbon.versioncontrol.2.6.0.nupkg.sha512"
+    },
+    "Carbon.Versioning/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sb5wO/BgMAMvUX6gf41h7Qhl5BkbDZbGiZxm8krEq/cNbpnH+kWlo9TJmTk/5XBB+K97xzgpk2VkBedmEl1Ewg==",
+      "path": "carbon.versioning/2.0.1",
+      "hashPath": "carbon.versioning.2.0.1.nupkg.sha512"
+    },
+    "GitHub/1.34.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X+Rn0rMMBdxlaFIL/cZAowKcnU29/oNZ9c3p61yvgJ962LmFUjlF7c2rtqbWMmOjoWxWfdoGygc2EwIPSDUQng==",
+      "path": "github/1.34.0",
+      "hashPath": "github.1.34.0.nupkg.sha512"
+    },
+    "HarfBuzzSharp/2.8.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8MwXm9J4dXHuTdzPo29nHgDbt4+6P+RrPrH/qrxcERf29cpLlFbjvP3eFPwHmdUrl4KL2SHEZi2ZuQ5ndeIL1w==",
+      "path": "harfbuzzsharp/2.8.2.3",
+      "hashPath": "harfbuzzsharp.2.8.2.3.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/2.8.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uwz9pB3hMuxzI/bSkjVrsOJH7Wo1L+0Md5ZmEMDM/j7xDHtR9d3mfg/CfxhMIcTiUC4JgX49FZK0y2ojgu1dww==",
+      "path": "harfbuzzsharp.nativeassets.macos/2.8.2.3",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/2.8.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wo6QpE4+a+PFVdfIBoLkLr4wq2uC0m9TZC8FAfy4ZnLsUc10WL0Egk9EBHHhDCeokNOXDse5YtvuTYtS/rbHfg==",
+      "path": "harfbuzzsharp.nativeassets.win32/2.8.2.3",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.2.8.2.3.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -469,6 +698,13 @@
       "path": "pdfsharp/1.50.5147",
       "hashPath": "pdfsharp.1.50.5147.nupkg.sha512"
     },
+    "QuestPDF/2023.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjF2eM2arZov1wFITTQK3DcwHod8S+HJTBYOQRmsv5G1ESAAdwcHq12ohC4qBmHbxSVc+X9TW2Bua3w/vxEOvA==",
+      "path": "questpdf/2023.5.2",
+      "hashPath": "questpdf.2023.5.2.nupkg.sha512"
+    },
     "runtime.native.System/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -482,6 +718,34 @@
       "sha512": "sha512-INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
       "path": "runtime.native.system.io.compression/4.3.0",
       "hashPath": "runtime.native.system.io.compression.4.3.0.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GG8X3EdfwyBfwjl639UIiOVOKEdeoqDgYrz0P1MUCnefXt9cofN+AK8YB/v1+5cLMr03ieWCQdDmPqnFIzSxZw==",
+      "path": "skiasharp/2.88.3",
+      "hashPath": "skiasharp.2.88.3.nupkg.sha512"
+    },
+    "SkiaSharp.HarfBuzz/2.88.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hH6v4ltTb34eqn5tx1qLSAN7O+ppZCV5DnZw0FR7RwxXYqCeQYbBNgsaPyrZ1nkvtCDD1pH79taeO6SvqG+IAg==",
+      "path": "skiasharp.harfbuzz/2.88.3",
+      "hashPath": "skiasharp.harfbuzz.2.88.3.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CEbWAXMGFkPV3S1snBKK7jEG3+xud/9kmSAhu0BEUKKtlMdxx+Qal0U9bntQREM9QpqP5xLWZooodi8IlV8MEg==",
+      "path": "skiasharp.nativeassets.macos/2.88.3",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.3.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MU4ASL8VAbTv5vSw1PoiWjjjpjtGhWtFYuJnrN4sNHFCePb2ohQij9JhSdqLLxk7RpRtWPdV93fbA53Pt+J0yw==",
+      "path": "skiasharp.nativeassets.win32/2.88.3",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.3.nupkg.sha512"
     },
     "System.Buffers/4.3.0": {
       "type": "package",

@@ -46,7 +46,6 @@
             listBox1 = new ListBox();
             label4 = new Label();
             textBox2 = new TextBox();
-            textBox1 = new TextBox();
             label3 = new Label();
             label2 = new Label();
             dateTimePicker1 = new DateTimePicker();
@@ -54,6 +53,7 @@
             groupBox2 = new GroupBox();
             richTextBox1 = new RichTextBox();
             button1 = new Button();
+            textBox1 = new TextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -61,6 +61,7 @@
             // groupBox1
             // 
             groupBox1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            groupBox1.Controls.Add(textBox1);
             groupBox1.Controls.Add(listBox4);
             groupBox1.Controls.Add(listBox3);
             groupBox1.Controls.Add(listBox2);
@@ -78,7 +79,6 @@
             groupBox1.Controls.Add(listBox1);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(textBox1);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(dateTimePicker1);
@@ -259,15 +259,6 @@
             textBox2.Size = new Size(154, 29);
             textBox2.TabIndex = 5;
             // 
-            // textBox1
-            // 
-            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(95, 78);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(442, 29);
-            textBox1.TabIndex = 4;
-            textBox1.TextChanged += Nome1;
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -343,6 +334,15 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(95, 77);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(442, 29);
+            textBox1.TabIndex = 24;
+            textBox1.TextChanged += textBox1_TextChanged;
+            // 
             // Relatorio
             // 
             AutoScroll = true;
@@ -371,7 +371,6 @@
         private ListBox listBox1;
         private Label label4;
         private TextBox textBox2;
-        private TextBox textBox1;
         private Label label3;
         private Label label2;
         private TextBox textBox5;
@@ -391,5 +390,6 @@
         private ListBox listBox2;
         private Button button1;
         private RichTextBox richTextBox1;
+        private TextBox textBox1;
     }
 }

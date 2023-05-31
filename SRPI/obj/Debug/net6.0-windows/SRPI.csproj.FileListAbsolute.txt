@@ -172,3 +172,21 @@ C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\refin
 C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
 C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
 C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\Carbon.Data.Protection.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\Carbon.Packaging.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\Carbon.Storage.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\Carbon.VersionControl.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\Carbon.Versioning.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\GitHub.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\HarfBuzzSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\QuestPDF.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\SkiaSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\SkiaSharp.HarfBuzz.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
