@@ -101,8 +101,11 @@ namespace SRPI
 
 
             //guardar arquivo pdf
-           
-            document.Save("C:\\pdf\\output.pdf");
+            string data = DateTime.Now.ToString("ddHHmmMMMyy");
+            string nome = "RelatorioDiario_" + data + ".pdf";
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            document.Save(path + "\\" + nome);
+            //document.Save("C:\\pdf\\output.pdf");
             MessageBox.Show("Arquivo gerado com sucesso.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 

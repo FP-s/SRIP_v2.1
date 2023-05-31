@@ -141,3 +141,34 @@ E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\
 E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\LEI 1º ano\2º Ano\2º Semestre\Laboratório de Desenvolvimento de Software\Hithub Visual Studio\SRPI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\SRPI.exe
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\SRPI.deps.json
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\SRPI.runtimeconfig.json
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\SRPI.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\SRPI.pdb
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\PdfSharp.Charting.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\PdfSharp.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\System.Windows.Extensions.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\de\PdfSharp.Charting.resources.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\de\PdfSharp.resources.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.AssemblyReference.cache
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.Login.resources
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.Properties.Resources.resources
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.Relatorio.resources
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.GenerateResource.cache
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfoInputs.cache
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.AssemblyInfo.cs
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CoreCompileInputs.cache
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.csproj.CopyComplete
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\refint\SRPI.dll
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.pdb
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\SRPI.genruntimeconfig.cache
+C:\Users\tfbento\Source\Repos\FP-s\SRIP_v2.1\SRPI\obj\Debug\net6.0-windows\ref\SRPI.dll
