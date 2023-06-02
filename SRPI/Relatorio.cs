@@ -124,10 +124,43 @@ namespace SRPI
             textFormatter.DrawString("Posto:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 150, page.Width - 60, page.Height - 60));
             textFormatter.DrawString(listBox2.Text, font, XBrushes.Black, new XRect(90, 150, page.Width - 60, page.Height - 60));
 
+
+            //agente 2
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Nome:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 170, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(textBox4.Text, font, XBrushes.Black, new XRect(90, 170, page.Width - 60, page.Height - 60));
+
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Número:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 190, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(textBox3.Text, font, XBrushes.Black, new XRect(90, 190, page.Width - 60, page.Height - 60));
+
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Posto:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 210, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(listBox3.Text, font, XBrushes.Black, new XRect(90, 210, page.Width - 60, page.Height - 60));
+
+
+            //agente 3
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Nome:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 230, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(textBox6.Text, font, XBrushes.Black, new XRect(90, 230, page.Width - 60, page.Height - 60));
+
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Número:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 250, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(textBox5.Text, font, XBrushes.Black, new XRect(90, 250, page.Width - 60, page.Height - 60));
+
+            textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
+            textFormatter.DrawString("Posto:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 270, page.Width - 60, page.Height - 60));
+            textFormatter.DrawString(listBox4.Text, font, XBrushes.Black, new XRect(90, 270, page.Width - 60, page.Height - 60));
+
+
+
+
+
+
             // Código para coletar o texto do campo ocorrências e apresentá-lo no relatório
             textFormatter.Alignment = PdfSharp.Drawing.Layout.XParagraphAlignment.Left;
-                            textFormatter.DrawString("Ocorrências:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 190, page.Width - 60, page.Height - 60));
-                            textFormatter.DrawString(richTextBox1.Text, font, XBrushes.Black, new XRect(30, 210, page.Width - 60, page.Height - 60));
+                            textFormatter.DrawString("Ocorrências:", font, PdfSharp.Drawing.XBrushes.Black, new PdfSharp.Drawing.XRect(30, 310, page.Width - 60, page.Height - 60));
+                            textFormatter.DrawString(richTextBox1.Text, font, XBrushes.Black, new XRect(30, 330, page.Width - 60, page.Height - 60));
 
 
                             //guardar arquivo pdf
@@ -135,7 +168,7 @@ namespace SRPI
                             string nome = "RelatorioDiario_" + data + ".pdf";
                             string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
                             //document.Save(path + "\\" + nome);
-                            document.Save("C:\\pdf\\" + nome);
+                            document.Save("C:\\temp\\" + nome);
                             MessageBox.Show("Arquivo gerado com sucesso.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                    
